@@ -1,0 +1,103 @@
+{
+  "_source": "https://egov.uscis.gov/processing-times/",
+  "_lastUpdated": "2026-04-26",
+  "_note": "Update this file monthly by checking the USCIS processing times tool at the source URL above. Replace the 'min' and 'max' values with the current range, and update 'inquiryDate' to the receipt date shown on the USCIS site.",
+  "forms": {
+    "I-130": {
+      "name": "Petition for Alien Relative",
+      "description": "Filed by US citizens or green card holders to bring a foreign family member to the US",
+      "centers": {
+        "Nebraska Service Center": { "min": 9, "max": 24, "unit": "Months", "inquiryDate": "2024-08-01" },
+        "Texas Service Center": { "min": 10, "max": 30, "unit": "Months", "inquiryDate": "2024-06-01" },
+        "California Service Center": { "min": 12, "max": 28, "unit": "Months", "inquiryDate": "2024-07-01" },
+        "Vermont Service Center": { "min": 8, "max": 22, "unit": "Months", "inquiryDate": "2024-09-01" },
+        "Potomac Service Center": { "min": 11, "max": 26, "unit": "Months", "inquiryDate": "2024-07-15" },
+        "National Benefits Center": { "min": 14, "max": 36, "unit": "Months", "inquiryDate": "2024-05-01" }
+      }
+    },
+    "I-485": {
+      "name": "Application to Register Permanent Residence",
+      "description": "Apply for a green card while inside the United States",
+      "centers": {
+        "Nebraska Service Center": { "min": 15, "max": 26, "unit": "Months", "inquiryDate": "2024-07-01" },
+        "Texas Service Center": { "min": 18, "max": 30, "unit": "Months", "inquiryDate": "2024-05-01" },
+        "California Service Center": { "min": 20, "max": 34, "unit": "Months", "inquiryDate": "2024-04-01" },
+        "Vermont Service Center": { "min": 14, "max": 24, "unit": "Months", "inquiryDate": "2024-08-01" },
+        "Potomac Service Center": { "min": 16, "max": 28, "unit": "Months", "inquiryDate": "2024-06-15" },
+        "National Benefits Center": { "min": 22, "max": 38, "unit": "Months", "inquiryDate": "2024-03-01" }
+      }
+    },
+    "I-765": {
+      "name": "Application for Employment Authorization",
+      "description": "Apply for work authorization (EAD card)",
+      "centers": {
+        "Nebraska Service Center": { "min": 3, "max": 7, "unit": "Months", "inquiryDate": "2025-11-01" },
+        "Texas Service Center": { "min": 4, "max": 9, "unit": "Months", "inquiryDate": "2025-10-01" },
+        "California Service Center": { "min": 4, "max": 8, "unit": "Months", "inquiryDate": "2025-10-15" },
+        "Vermont Service Center": { "min": 3, "max": 6, "unit": "Months", "inquiryDate": "2025-11-15" },
+        "Potomac Service Center": { "min": 4, "max": 8, "unit": "Months", "inquiryDate": "2025-10-01" },
+        "National Benefits Center": { "min": 5, "max": 10, "unit": "Months", "inquiryDate": "2025-09-01" }
+      }
+    },
+    "I-131": {
+      "name": "Application for Travel Document",
+      "description": "Apply for a Re-entry Permit, Refugee Travel Document, or Advance Parole",
+      "centers": {
+        "Nebraska Service Center": { "min": 4, "max": 9, "unit": "Months", "inquiryDate": "2025-10-01" },
+        "Texas Service Center": { "min": 5, "max": 11, "unit": "Months", "inquiryDate": "2025-09-01" },
+        "California Service Center": { "min": 5, "max": 10, "unit": "Months", "inquiryDate": "2025-09-15" },
+        "Vermont Service Center": { "min": 4, "max": 8, "unit": "Months", "inquiryDate": "2025-10-15" },
+        "Potomac Service Center": { "min": 5, "max": 10, "unit": "Months", "inquiryDate": "2025-09-01" },
+        "National Benefits Center": { "min": 6, "max": 14, "unit": "Months", "inquiryDate": "2025-08-01" }
+      }
+    },
+    "N-400": {
+      "name": "Application for Naturalization",
+      "description": "Apply to become a U.S. citizen",
+      "centers": {
+        "Nebraska Service Center": { "min": 8, "max": 14, "unit": "Months", "inquiryDate": "2025-06-01" },
+        "Texas Service Center": { "min": 10, "max": 18, "unit": "Months", "inquiryDate": "2025-04-01" },
+        "California Service Center": { "min": 9, "max": 16, "unit": "Months", "inquiryDate": "2025-05-01" },
+        "Vermont Service Center": { "min": 7, "max": 13, "unit": "Months", "inquiryDate": "2025-07-01" },
+        "Potomac Service Center": { "min": 9, "max": 15, "unit": "Months", "inquiryDate": "2025-05-15" },
+        "National Benefits Center": { "min": 12, "max": 22, "unit": "Months", "inquiryDate": "2025-02-01" }
+      }
+    },
+    "I-129F": {
+      "name": "Petition for Alien Fiancé(e)",
+      "description": "Bring your foreign fiancé(e) to the US to get married (K-1 visa)",
+      "centers": {
+        "Nebraska Service Center": { "min": 11, "max": 18, "unit": "Months", "inquiryDate": "2025-03-01" },
+        "Texas Service Center": { "min": 13, "max": 22, "unit": "Months", "inquiryDate": "2025-01-01" },
+        "California Service Center": { "min": 12, "max": 20, "unit": "Months", "inquiryDate": "2025-02-01" },
+        "Vermont Service Center": { "min": 10, "max": 17, "unit": "Months", "inquiryDate": "2025-04-01" },
+        "Potomac Service Center": { "min": 12, "max": 19, "unit": "Months", "inquiryDate": "2025-02-15" },
+        "National Benefits Center": { "min": 15, "max": 28, "unit": "Months", "inquiryDate": "2024-11-01" }
+      }
+    },
+    "I-751": {
+      "name": "Petition to Remove Conditions on Residence",
+      "description": "Remove the 2-year condition on a marriage-based green card",
+      "centers": {
+        "Nebraska Service Center": { "min": 18, "max": 28, "unit": "Months", "inquiryDate": "2024-07-01" },
+        "Texas Service Center": { "min": 20, "max": 32, "unit": "Months", "inquiryDate": "2024-05-01" },
+        "California Service Center": { "min": 22, "max": 36, "unit": "Months", "inquiryDate": "2024-03-01" },
+        "Vermont Service Center": { "min": 16, "max": 26, "unit": "Months", "inquiryDate": "2024-09-01" },
+        "Potomac Service Center": { "min": 19, "max": 30, "unit": "Months", "inquiryDate": "2024-06-01" },
+        "National Benefits Center": { "min": 24, "max": 40, "unit": "Months", "inquiryDate": "2024-01-01" }
+      }
+    },
+    "I-90": {
+      "name": "Application to Replace Permanent Resident Card",
+      "description": "Renew or replace an expiring or lost green card",
+      "centers": {
+        "Nebraska Service Center": { "min": 8, "max": 14, "unit": "Months", "inquiryDate": "2025-06-01" },
+        "Texas Service Center": { "min": 9, "max": 16, "unit": "Months", "inquiryDate": "2025-05-01" },
+        "California Service Center": { "min": 10, "max": 17, "unit": "Months", "inquiryDate": "2025-04-15" },
+        "Vermont Service Center": { "min": 7, "max": 13, "unit": "Months", "inquiryDate": "2025-07-01" },
+        "Potomac Service Center": { "min": 9, "max": 15, "unit": "Months", "inquiryDate": "2025-05-15" },
+        "National Benefits Center": { "min": 11, "max": 20, "unit": "Months", "inquiryDate": "2025-03-01" }
+      }
+    }
+  }
+}

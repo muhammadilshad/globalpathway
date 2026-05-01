@@ -1,0 +1,83 @@
+{
+  "_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/criteria-comprehensive-ranking-system/grid.html",
+  "_lastUpdated": "2026-04-26",
+  "age": {
+    "withSpouse": [
+      { "age": 17, "points": 0 }, { "age": 18, "points": 90 }, { "age": 19, "points": 95 },
+      { "age": 20, "points": 100 }, { "age": 21, "points": 100 }, { "age": 22, "points": 100 },
+      { "age": 23, "points": 100 }, { "age": 24, "points": 100 }, { "age": 25, "points": 100 },
+      { "age": 26, "points": 100 }, { "age": 27, "points": 100 }, { "age": 28, "points": 100 },
+      { "age": 29, "points": 100 }, { "age": 30, "points": 95 }, { "age": 31, "points": 90 },
+      { "age": 32, "points": 85 }, { "age": 33, "points": 80 }, { "age": 34, "points": 75 },
+      { "age": 35, "points": 70 }, { "age": 36, "points": 65 }, { "age": 37, "points": 60 },
+      { "age": 38, "points": 55 }, { "age": 39, "points": 50 }, { "age": 40, "points": 45 },
+      { "age": 41, "points": 35 }, { "age": 42, "points": 25 }, { "age": 43, "points": 15 },
+      { "age": 44, "points": 5 }, { "age": 45, "points": 0 }
+    ],
+    "withoutSpouse": [
+      { "age": 17, "points": 0 }, { "age": 18, "points": 99 }, { "age": 19, "points": 105 },
+      { "age": 20, "points": 110 }, { "age": 21, "points": 110 }, { "age": 22, "points": 110 },
+      { "age": 23, "points": 110 }, { "age": 24, "points": 110 }, { "age": 25, "points": 110 },
+      { "age": 26, "points": 110 }, { "age": 27, "points": 110 }, { "age": 28, "points": 110 },
+      { "age": 29, "points": 110 }, { "age": 30, "points": 105 }, { "age": 31, "points": 99 },
+      { "age": 32, "points": 94 }, { "age": 33, "points": 88 }, { "age": 34, "points": 83 },
+      { "age": 35, "points": 77 }, { "age": 36, "points": 72 }, { "age": 37, "points": 66 },
+      { "age": 38, "points": 61 }, { "age": 39, "points": 55 }, { "age": 40, "points": 50 },
+      { "age": 41, "points": 39 }, { "age": 42, "points": 28 }, { "age": 43, "points": 17 },
+      { "age": 44, "points": 6 }, { "age": 45, "points": 0 }
+    ]
+  },
+  "education": {
+    "withSpouse": {
+      "less_than_secondary": 0, "secondary": 28, "one_year_post_secondary": 84,
+      "two_year_post_secondary": 91, "bachelors": 112, "two_or_more_degrees": 119,
+      "masters": 126, "doctoral": 140
+    },
+    "withoutSpouse": {
+      "less_than_secondary": 0, "secondary": 30, "one_year_post_secondary": 90,
+      "two_year_post_secondary": 98, "bachelors": 120, "two_or_more_degrees": 128,
+      "masters": 135, "doctoral": 150
+    }
+  },
+  "canadianWorkExperience": {
+    "withSpouse": { "0": 0, "1": 35, "2": 46, "3": 56, "4": 63, "5+": 70 },
+    "withoutSpouse": { "0": 0, "1": 40, "2": 53, "3": 64, "4": 72, "5+": 80 }
+  },
+  "foreignWorkExperience": {
+    "noCanadian": { "0": 0, "1_2": 13, "3+": 25 },
+    "withCanadian": { "0": 0, "1_2": 0, "3+": 0 }
+  },
+  "firstLanguage": {
+    "description": "CLB scores for IELTS (English) or TEF Canada (French)",
+    "withSpouse": {
+      "speaking": { "clb4": 6, "clb5": 6, "clb6": 8, "clb7": 16, "clb8": 22, "clb9": 29, "clb10+": 32 },
+      "listening": { "clb4": 6, "clb5": 6, "clb6": 8, "clb7": 16, "clb8": 22, "clb9": 29, "clb10+": 32 },
+      "reading": { "clb4": 6, "clb5": 6, "clb6": 8, "clb7": 16, "clb8": 22, "clb9": 29, "clb10+": 32 },
+      "writing": { "clb4": 6, "clb5": 6, "clb6": 8, "clb7": 16, "clb8": 22, "clb9": 29, "clb10+": 32 }
+    },
+    "withoutSpouse": {
+      "speaking": { "clb4": 6, "clb5": 6, "clb6": 9, "clb7": 17, "clb8": 23, "clb9": 31, "clb10+": 34 },
+      "listening": { "clb4": 6, "clb5": 6, "clb6": 9, "clb7": 17, "clb8": 23, "clb9": 31, "clb10+": 34 },
+      "reading": { "clb4": 6, "clb5": 6, "clb6": 9, "clb7": 17, "clb8": 23, "clb9": 31, "clb10+": 34 },
+      "writing": { "clb4": 6, "clb5": 6, "clb6": 9, "clb7": 17, "clb8": 23, "clb9": 31, "clb10+": 34 }
+    }
+  },
+  "additionalPoints": {
+    "provincialNomination": 600,
+    "arrangedEmployment_00_0": 50,
+    "arrangedEmployment_other": 200,
+    "siblingInCanada": 15,
+    "frenchLanguage_clb7_noEnglish": 25,
+    "frenchLanguage_clb7_withEnglishClb5": 50,
+    "canadianEducation_1_2years": 15,
+    "canadianEducation_3plus": 30
+  },
+  "recentDraws": [
+    { "date": "2026-04-10", "program": "Federal Skilled Worker", "cutoff": 491, "invitations": 3500 },
+    { "date": "2026-03-26", "program": "Canadian Experience Class", "cutoff": 522, "invitations": 4200 },
+    { "date": "2026-03-12", "program": "Federal Skilled Worker", "cutoff": 489, "invitations": 3200 },
+    { "date": "2026-02-26", "program": "All Programs", "cutoff": 524, "invitations": 4700 },
+    { "date": "2026-02-12", "program": "Canadian Experience Class", "cutoff": 533, "invitations": 3900 },
+    { "date": "2026-01-29", "program": "Federal Skilled Worker", "cutoff": 486, "invitations": 3100 }
+  ]
+}

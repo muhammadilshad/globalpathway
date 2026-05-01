@@ -1,0 +1,222 @@
+{
+  "_source": "Official embassy/consulate websites for each country",
+  "_lastUpdated": "2026-04-26",
+  "destinations": {
+    "US": {
+      "Tourist": {
+        "Identity": ["Valid passport (6+ months validity beyond stay)", "Previous passports if any", "One passport-size photo (2x2 inches, white background)"],
+        "Financial": ["Bank statements (last 3-6 months)", "Proof of employment / pay stubs", "Tax returns (last 2 years)", "Property / asset ownership documents (if applicable)"],
+        "Supporting": ["DS-160 completed online form", "Interview appointment confirmation", "Hotel reservations or host invitation letter", "Return/onward flight itinerary", "Travel itinerary"],
+        "Photos": ["2 x 2 inch photo (51 x 51 mm), white background, taken within last 6 months"],
+        "Forms": ["DS-160 (Online Nonimmigrant Visa Application)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport (6+ months validity)", "Previous passports"],
+        "Financial": ["Bank statements showing sufficient funds (tuition + living expenses)", "Sponsor letter and financial documents if someone else is paying", "Scholarship award letter (if applicable)"],
+        "Supporting": ["I-20 form from the US school", "SEVIS fee payment receipt (I-901)", "Proof of English proficiency (TOEFL/IELTS scores)", "Academic transcripts and diplomas", "Acceptance letter from school"],
+        "Photos": ["2 x 2 inch photo, white background"],
+        "Forms": ["DS-160 (Online Nonimmigrant Visa Application)", "I-20 (provided by institution)"]
+      },
+      "Work": {
+        "Identity": ["Valid passport", "Previous passports"],
+        "Financial": ["Evidence of job offer / employment contract"],
+        "Supporting": ["I-797 approval notice from USCIS", "Labor Condition Application (LCA) for H-1B", "Educational credentials / degree certificates", "Employer support letter", "Resume/CV"],
+        "Photos": ["2 x 2 inch photo, white background"],
+        "Forms": ["DS-160", "I-129 (filed by employer)"]
+      },
+      "Family": {
+        "Identity": ["Valid passport", "Birth certificates", "Marriage certificate (if applicable)"],
+        "Financial": ["Petitioner's tax returns and W-2 (last 3 years)", "I-864 Affidavit of Support", "Petitioner's pay stubs"],
+        "Supporting": ["NVC approval notice", "Police clearance certificates from all countries lived in for 6+ months since age 16", "Medical examination results (Form I-693)", "Birth certificates for children"],
+        "Photos": ["2 x 2 inch photo"],
+        "Forms": ["DS-260 (Immigrant Visa Application)", "I-864 (Affidavit of Support)", "DS-5540 (if applicable)"]
+      }
+    },
+    "CA": {
+      "Tourist": {
+        "Identity": ["Valid passport (valid for stay duration + 6 months recommended)", "Current and previous passports"],
+        "Financial": ["Bank statements (last 3-6 months)", "Proof of income or employment letter", "Proof of assets or property ownership"],
+        "Supporting": ["IMM 5257 application form", "Completed application checklist", "Hotel/accommodation reservation or host invitation letter (IMM 5476 if applicable)", "Travel itinerary", "Ties to home country evidence"],
+        "Photos": ["2 photos: 50mm x 70mm (2 x 2.75 inches), white background"],
+        "Forms": ["IMM 5257 (Visitor Visa Application)", "IMM 5645 (Family Information)", "IMM 5476 (Use of Representative, if applicable)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Proof of tuition payment or scholarship letter", "Bank statements or financial guarantee showing sufficient funds ($10,000+ CAD per year)", "Sponsor letter if applicable"],
+        "Supporting": ["Letter of Acceptance from a Designated Learning Institution (DLI)", "Proof of English/French proficiency (IELTS, CELPIP, TEF)", "Academic transcripts", "Statement of purpose"],
+        "Photos": ["2 photos: 50mm x 70mm"],
+        "Forms": ["IMM 1294 (Student Permit Application)"]
+      },
+      "Work": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Employment contract or job offer letter"],
+        "Supporting": ["Labour Market Impact Assessment (LMIA) from employer", "Employment contract with Canadian employer", "Educational credentials and work experience documents", "Provincial nomination letter if applicable"],
+        "Photos": ["2 photos: 50mm x 70mm"],
+        "Forms": ["IMM 1295 (Work Permit Application)", "IMM 5710 (Additional Family Information if applicable)"]
+      },
+      "Family": {
+        "Identity": ["Valid passport", "Birth certificates", "Marriage/common-law partnership proof"],
+        "Financial": ["Sponsor's tax returns (NOA - Notice of Assessment)", "Sponsor's employment letter and pay stubs"],
+        "Supporting": ["Proof of relationship (photos, communication records, visit history)", "Medical exams (upfront medicals required)", "Police certificates from all countries lived in 6+ months since age 18"],
+        "Photos": ["2 photos: 50mm x 70mm"],
+        "Forms": ["IMM 0008 (Generic Application Form)", "IMM 5532 (Relationship Information and Sponsorship Evaluation)", "IMM 5669 (Schedule A Background/Declaration)"]
+      }
+    },
+    "GB": {
+      "Tourist": {
+        "Identity": ["Valid passport", "Blank pages (at least 2 full pages)"],
+        "Financial": ["Bank statements (last 6 months)", "Proof of employment and salary / business ownership", "Proof you can afford the trip"],
+        "Supporting": ["Online visa application (VAF1A)", "Hotel bookings or invitation letter", "Travel itinerary", "Proof of ties to home country (job, property, family)"],
+        "Photos": ["One passport-size photo (35mm x 45mm, light grey or cream background)"],
+        "Forms": ["UK Standard Visitor Visa Application (online via GOV.UK)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Proof of funds: tuition fees + living costs (£1,334/month London; £1,023/month elsewhere)", "Parent or sponsor financial evidence if applicable"],
+        "Supporting": ["Confirmation of Acceptance for Studies (CAS) from UKVI-licensed institution", "IELTS/TOEFL scores or equivalent English test", "Academic qualifications", "Tuberculosis test results (if from a listed country)"],
+        "Photos": ["One passport-size photo"],
+        "Forms": ["UK Student Visa Application (online)"]
+      },
+      "Work": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Employment contract with UK sponsor", "Salary information meeting minimum threshold"],
+        "Supporting": ["Certificate of Sponsorship (CoS) from UK employer", "Proof of English language ability", "Qualifications documents", "Criminal record certificate (if required by role)"],
+        "Photos": ["One passport-size photo"],
+        "Forms": ["UK Skilled Worker Visa Application (online)"]
+      },
+      "Family": {
+        "Identity": ["Valid passport", "Marriage/civil partnership certificate"],
+        "Financial": ["Sponsor's financial evidence (income threshold: typically £29,000+/year)", "Payslips, bank statements, and P60"],
+        "Supporting": ["Evidence of genuine relationship (photos, messages, visit history)", "English language test results", "TB test results (from listed countries)"],
+        "Photos": ["One passport-size photo"],
+        "Forms": ["UK Family Visa Application (online)"]
+      }
+    },
+    "AU": {
+      "Tourist": {
+        "Identity": ["Valid passport", "Previous Australian visas (if any)"],
+        "Financial": ["Bank statements showing sufficient funds", "Evidence of employment or business"],
+        "Supporting": ["Online ImmiAccount application", "Return flight booking", "Accommodation bookings", "Health insurance for the trip"],
+        "Photos": ["Recent passport-size photo (if required by the specific visa subclass)"],
+        "Forms": ["Visitor Visa Application (subclass 600) via ImmiAccount"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Proof of funds: tuition + AUD 21,041/year living costs minimum", "GTE (Genuine Temporary Entrant) statement"],
+        "Supporting": ["Confirmation of Enrolment (CoE) from Australian institution", "English language results (IELTS 5.5+, TOEFL, PTE)", "Overseas Student Health Cover (OSHC) proof", "Academic transcripts"],
+        "Photos": ["Passport-size photo"],
+        "Forms": ["Student Visa (subclass 500) via ImmiAccount"]
+      },
+      "Work": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Employment contract from Australian employer"],
+        "Supporting": ["Labour Market Testing (LMT) evidence from employer", "Skills assessment from relevant authority", "English language test results", "Professional registration (if required for occupation)"],
+        "Photos": ["Passport-size photo"],
+        "Forms": ["Temporary Skill Shortage Visa (subclass 482) via ImmiAccount"]
+      },
+      "Family": {
+        "Identity": ["Valid passport", "Birth certificate", "Marriage/de facto relationship evidence"],
+        "Financial": ["Sponsor's financial documents"],
+        "Supporting": ["Evidence of genuine relationship (statutory declaration, photos, joint finances)", "Health examination results", "Police clearance from all countries resided in for 12+ months in last 10 years"],
+        "Photos": ["Passport-size photo"],
+        "Forms": ["Partner Visa (subclass 820/801) via ImmiAccount"]
+      }
+    },
+    "Schengen": {
+      "Tourist": {
+        "Identity": ["Valid passport (issued within last 10 years, valid 3 months beyond planned stay)", "Previous Schengen visas/passports", "National ID card (where applicable)"],
+        "Financial": ["Bank statements (last 3 months, minimum €50/day or €500 total)", "Proof of employment / leave approval", "Credit card statement or sponsorship letter"],
+        "Supporting": ["Completed Schengen visa application form", "Flight reservation (outbound and return)", "Hotel / accommodation booking or invitation letter", "Travel insurance (min €30,000 coverage across all Schengen states)", "Hotel itinerary"],
+        "Photos": ["2 recent photos: 35mm x 45mm, white background"],
+        "Forms": ["Uniform Schengen Visa Application Form (available at embassy/VFS/TLScontact)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Proof of sufficient funds for study period", "Scholarship letter or sponsor declaration"],
+        "Supporting": ["University acceptance / enrollment letter", "Course details and duration", "Proof of accommodation in destination country", "Language test results if required"],
+        "Photos": ["2 recent photos: 35mm x 45mm"],
+        "Forms": ["National long-stay (D) visa application form from embassy of primary destination country"]
+      },
+      "Work": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Employment contract with Schengen company"],
+        "Supporting": ["Work permit / Blue Card approval", "Employer confirmation letter", "Professional qualifications", "Housing proof"],
+        "Photos": ["2 recent photos: 35mm x 45mm"],
+        "Forms": ["National long-stay (D) visa application form"]
+      },
+      "Family": {
+        "Identity": ["Valid passport", "Marriage certificate or proof of relationship"],
+        "Financial": ["Sponsor's financial documents"],
+        "Supporting": ["Proof of residence of EU/Schengen family member", "Evidence of family relationship"],
+        "Photos": ["2 recent photos: 35mm x 45mm"],
+        "Forms": ["National long-stay (D) visa application or EU Family Member residence card application"]
+      }
+    },
+    "AE": {
+      "Tourist": {
+        "Identity": ["Valid passport (6 months validity)", "Passport-size photos"],
+        "Financial": ["Bank statement (last 3 months)", "Proof of accommodation or hotel booking"],
+        "Supporting": ["Return flight itinerary", "Travel insurance (recommended)", "Hotel booking confirmation or host's UAE residence visa copy"],
+        "Photos": ["Recent colour photo with white background"],
+        "Forms": ["Online visa application via ICP (Federal Authority for Identity and Citizenship) or authorized agent"]
+      },
+      "Work": {
+        "Identity": ["Valid passport", "Medical fitness certificate"],
+        "Financial": ["Employment contract"],
+        "Supporting": ["Entry permit issued by employer", "Medical test (blood test + chest X-ray in UAE)", "Emirates ID application after arrival", "Educational certificates (attested)"],
+        "Photos": ["Passport-size photo with white background"],
+        "Forms": ["Employer-sponsored entry permit + Residence visa application in UAE"]
+      }
+    },
+    "JP": {
+      "Tourist": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Bank statement or proof of sufficient funds", "Proof of employment"],
+        "Supporting": ["Completed visa application form", "Return flight booking", "Hotel reservations / accommodation details", "Travel itinerary"],
+        "Photos": ["One photo: 45mm x 45mm, white background, taken within last 6 months"],
+        "Forms": ["Japan Visa Application Form (available from Japanese embassy/consulate)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Proof of sufficient living and tuition funds", "Sponsor's financial guarantee (if applicable)"],
+        "Supporting": ["Certificate of Eligibility (CoE) from Japanese immigration authorities (obtained by school)", "Acceptance letter from Japanese educational institution", "Academic transcripts"],
+        "Photos": ["One photo: 45mm x 45mm"],
+        "Forms": ["Japan Visa Application Form + Certificate of Eligibility"]
+      }
+    },
+    "SG": {
+      "Tourist": {
+        "Identity": ["Valid passport (6 months validity)", "Completed disembarkation/embarkation card"],
+        "Financial": ["Sufficient funds for stay (SGD 500+ minimum recommended)"],
+        "Supporting": ["Confirmed return/onward flight", "Hotel booking or host's details", "Yellow fever vaccination (if arriving from endemic country)"],
+        "Photos": ["Not typically required for visa-exempt visitors; photo required for visa applicants"],
+        "Forms": ["SGVIA (Singapore Visitor Visa) for those who require a visa"]
+      }
+    },
+    "NZ": {
+      "Tourist": {
+        "Identity": ["Valid passport (1 month beyond stay)", "NZeTA (NZ Electronic Travel Authority) if visa-waiver eligible"],
+        "Financial": ["NZD 1,000/month or NZD 400 + return ticket proof", "Bank statements or credit card"],
+        "Supporting": ["Return flight booking", "Accommodation bookings", "Evidence of ties to home country"],
+        "Photos": ["Not required for NZeTA; photo required for visitor visa applicants"],
+        "Forms": ["NZeTA via New Zealand Immigration (mobile app or website)"]
+      }
+    },
+    "DE": {
+      "Tourist": {
+        "Identity": ["Valid passport (valid 3 months beyond planned stay)", "Previous Schengen entry stamps"],
+        "Financial": ["Blocked account or bank guarantee (€720/month)", "Return flight booking"],
+        "Supporting": ["Completed Schengen visa form", "Travel insurance (min €30,000 coverage)", "Hotel/accommodation bookings", "Cover letter explaining trip purpose"],
+        "Photos": ["2 recent biometric photos (35mm x 45mm, white/off-white background)"],
+        "Forms": ["Schengen Visa Application Form (available from German embassy)"]
+      },
+      "Student": {
+        "Identity": ["Valid passport"],
+        "Financial": ["Blocked account (Sperrkonto) showing €11,208/year", "Scholarship letter if applicable"],
+        "Supporting": ["University admission letter (Zulassungsbescheid)", "German language proficiency (TestDaF, DSH) or English for English-taught programs", "Academic certificates (Hochschulzugangsberechtigung)", "Health insurance coverage"],
+        "Photos": ["2 biometric photos"],
+        "Forms": ["German National Visa (Nationales Visum) application via German embassy"]
+      }
+    }
+  }
+}

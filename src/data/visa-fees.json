@@ -1,0 +1,127 @@
+{
+  "_source": "Official embassy/consulate websites for each country",
+  "_lastUpdated": "2026-04-26",
+  "_note": "Update fees by checking each country's official visa application website. Fees are in USD. Local currency is also shown for reference.",
+  "destinations": {
+    "US": {
+      "name": "United States",
+      "currency": "USD",
+      "exchangeRate": 1,
+      "types": {
+        "Tourist": { "govFee": 185, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 22, "notes": "B-1/B-2 visa. Biometrics collected at interview at no extra cost." },
+        "Student": { "govFee": 185, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 350, "notes": "F-1/M-1 visa. SEVIS fee $350 is additional." },
+        "Work": { "govFee": 205, "biometricFee": 0, "premiumProcessing": 2805, "serviceFee": 0, "notes": "H-1B. Premium processing is optional ($2,805)." },
+        "Family": { "govFee": 325, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "IR/CR immigrant visa." },
+        "Business": { "govFee": 185, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 22, "notes": "B-1/B-2 visa covers business visits." }
+      }
+    },
+    "CA": {
+      "name": "Canada",
+      "currency": "CAD",
+      "exchangeRate": 0.73,
+      "types": {
+        "Tourist": { "govFee": 100, "biometricFee": 85, "premiumProcessing": 0, "serviceFee": 0, "notes": "Temporary Resident Visa (TRV). Biometrics required first time." },
+        "Student": { "govFee": 150, "biometricFee": 85, "premiumProcessing": 0, "serviceFee": 0, "notes": "Study permit." },
+        "Work": { "govFee": 155, "biometricFee": 85, "premiumProcessing": 0, "serviceFee": 0, "notes": "Work permit. LMIA may have additional employer costs." },
+        "Family": { "govFee": 1050, "biometricFee": 85, "premiumProcessing": 0, "serviceFee": 0, "notes": "Spousal sponsorship. Includes right of permanent residence fee." },
+        "Business": { "govFee": 100, "biometricFee": 85, "premiumProcessing": 0, "serviceFee": 0, "notes": "Business visitor visa is same as tourist TRV." }
+      }
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "currency": "GBP",
+      "exchangeRate": 1.27,
+      "types": {
+        "Tourist": { "govFee": 115, "biometricFee": 0, "premiumProcessing": 800, "serviceFee": 0, "notes": "Standard visitor visa. Super Priority (next day) available for £800." },
+        "Student": { "govFee": 363, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Student visa. Healthcare surcharge also required (~£776/year)." },
+        "Work": { "govFee": 625, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Skilled Worker visa (up to 3 years)." },
+        "Family": { "govFee": 1538, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Family visa (spouse/partner)." },
+        "Business": { "govFee": 115, "biometricFee": 0, "premiumProcessing": 800, "serviceFee": 0, "notes": "Business visits covered under Standard Visitor visa." }
+      }
+    },
+    "AU": {
+      "name": "Australia",
+      "currency": "AUD",
+      "exchangeRate": 0.64,
+      "types": {
+        "Tourist": { "govFee": 190, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Visitor visa (subclass 600)." },
+        "Student": { "govFee": 710, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Student visa (subclass 500)." },
+        "Work": { "govFee": 310, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Temporary Skill Shortage (subclass 482) base fee." },
+        "Family": { "govFee": 8085, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Partner visa (subclass 820/801)." },
+        "Business": { "govFee": 365, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Business Innovation and Investment visa." }
+      }
+    },
+    "Schengen": {
+      "name": "Schengen Area (Europe)",
+      "currency": "EUR",
+      "exchangeRate": 1.08,
+      "types": {
+        "Tourist": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Short-stay Schengen visa (up to 90 days). Service fee varies by VFS/TLScontact." },
+        "Student": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Long-stay national visa for studies (varies by country)." },
+        "Work": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Depends on country and permit type." },
+        "Family": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Family reunification; national visa rules apply." },
+        "Business": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Business included under short-stay Schengen visa." }
+      }
+    },
+    "AE": {
+      "name": "UAE (Dubai/Abu Dhabi)",
+      "currency": "AED",
+      "exchangeRate": 0.27,
+      "types": {
+        "Tourist": { "govFee": 270, "biometricFee": 0, "premiumProcessing": 150, "serviceFee": 45, "notes": "30-day single-entry visa online. Express (urgent) processing extra." },
+        "Student": { "govFee": 500, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 50, "notes": "Student residence visa." },
+        "Work": { "govFee": 1000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 100, "notes": "Employer-sponsored residence visa." },
+        "Family": { "govFee": 1500, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 100, "notes": "Family sponsorship/residence." },
+        "Business": { "govFee": 270, "biometricFee": 0, "premiumProcessing": 150, "serviceFee": 45, "notes": "Business visit included under 30-day tourist visa for most nationalities." }
+      }
+    },
+    "SG": {
+      "name": "Singapore",
+      "currency": "SGD",
+      "exchangeRate": 0.75,
+      "types": {
+        "Tourist": { "govFee": 30, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Single-entry tourist visa (for those who require one)." },
+        "Student": { "govFee": 30, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Student's pass." },
+        "Work": { "govFee": 105, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Employment Pass." },
+        "Family": { "govFee": 30, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Dependant's pass." },
+        "Business": { "govFee": 30, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Business visit covered under tourist visa for most nationalities." }
+      }
+    },
+    "JP": {
+      "name": "Japan",
+      "currency": "JPY",
+      "exchangeRate": 0.0067,
+      "types": {
+        "Tourist": { "govFee": 3000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 1000, "notes": "Single-entry tourist visa (JPY). In USD approx $20 + $7 service." },
+        "Student": { "govFee": 3000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 1000, "notes": "Student visa (留学). Certificate of Eligibility required." },
+        "Work": { "govFee": 3000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 1000, "notes": "Work visa. Certificate of Eligibility required from employer." },
+        "Family": { "govFee": 3000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 1000, "notes": "Dependent/Spouse of Japanese National." },
+        "Business": { "govFee": 3000, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 1000, "notes": "Business visa." }
+      }
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "currency": "NZD",
+      "exchangeRate": 0.59,
+      "types": {
+        "Tourist": { "govFee": 211, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Visitor visa. NZeTA (Electronic Travel Authority) for eligible nationalities is NZD 23." },
+        "Student": { "govFee": 375, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Student visa." },
+        "Work": { "govFee": 495, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Work visa (Skilled Migrant). Varies by type." },
+        "Family": { "govFee": 690, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Partner/family visa." },
+        "Business": { "govFee": 211, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 0, "notes": "Business visit under visitor visa." }
+      }
+    },
+    "DE": {
+      "name": "Germany",
+      "currency": "EUR",
+      "exchangeRate": 1.08,
+      "types": {
+        "Tourist": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Short-stay Schengen visa via German embassy." },
+        "Student": { "govFee": 75, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "National long-stay study visa (§16b AufenthG)." },
+        "Work": { "govFee": 75, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Skilled immigration (§18 AufenthG)." },
+        "Family": { "govFee": 75, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Family reunification visa." },
+        "Business": { "govFee": 90, "biometricFee": 0, "premiumProcessing": 0, "serviceFee": 30, "notes": "Business included under Schengen short-stay visa." }
+      }
+    }
+  }
+}

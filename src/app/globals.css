@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0f2a47;
+  --background: #ffffff;
+  --surface: #f7f9fc;
+  --eligible: #0a9e5e;
+  --caution: #d97706;
+  --text-primary: #0f1419;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-eligible: var(--eligible);
+  --color-caution: var(--caution);
+  --color-text-primary: var(--text-primary);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+  --font-mono: var(--font-data);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-body), Manrope, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), "Source Serif 4", Georgia, serif;
+}
+
+code, .font-mono {
+  font-family: var(--font-data), "JetBrains Mono", monospace;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+}

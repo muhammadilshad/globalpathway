@@ -1,0 +1,12 @@
+# ads.txt — GlobalPathway
+#
+# BEFORE GOING LIVE:
+# Replace the placeholder line below with your real AdSense publisher line.
+# Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# You get your publisher ID from: https://www.google.com/adsense/new/u/0/pub-XXXX/myads/sites
+# After AdSense approval, your real line will look like:
+# google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+#
+# Placeholder (remove this line and add real one after approval):
+# google.com, pub-REPLACE_WITH_YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
